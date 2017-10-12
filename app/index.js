@@ -55,7 +55,7 @@ try {
   Account = require('../configs/account')
 } catch (e) {
   if (e.code !== 'MODULE_NOT_FOUND') throw e
-  Account = require('../configs/accountDummy')
+  Account = require('../configs/account')
 }
 
 // First instantiate the class

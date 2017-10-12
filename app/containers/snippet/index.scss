@@ -52,7 +52,7 @@
       height: 28px;
       width: 28px;
       transform: translate(-50%, -50%);
-      fill: #6b6a6f;
+      fill: white;
       transition: fill .15s;
     }
 
@@ -77,6 +77,7 @@
     border-radius: 0;
     border-bottom: none;
     margin-bottom: 0;
+    background: #15232d;
 
     & > .panel-heading {
       position: absolute;
@@ -84,9 +85,9 @@
       left: 1px;
       width: 100%;
       z-index: 5;
-      background-color: #fff;
+      background-color: #2b2b2b;
       border: none!important;
-      color: inherit;
+      color: white;
       padding: 12px 15px;
 
       &:after {
@@ -120,6 +121,7 @@
     @extend .font-style-base;
     border: 0px;
     border-bottom: 1px solid #dadee3;
+    background: #fff;
   }
 
   pre {

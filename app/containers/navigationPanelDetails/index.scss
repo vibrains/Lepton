@@ -20,7 +20,7 @@
 
   .font-style-base {
     font-family: -apple-system, BlinkMacSystemFont, Segoe WPC, Segoe UI, Ubuntu, Droid Sans, sans-serif;
-    font-size: 15px;
+    font-size: 12px;
   }
 
   ul {
@@ -67,12 +67,14 @@
 
   .active-snippet-thumnail-public {
     @extend .active-snippet-thumnail-base;
-    // background: #DFF0D4;
+    background: cornflowerblue;
+    color: white;
   }
 
   .active-snippet-thumnail-private {
     @extend .active-snippet-thumnail-base;
-    // background: #F2DEDE;
+    background: darkslategray;
+    color: white;
   }
 
   .snippet-thumnail-description {
