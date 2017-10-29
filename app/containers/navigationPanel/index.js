@@ -289,7 +289,7 @@ class NavigationPanel extends Component {
         </Modal.Body>
         <Modal.Footer>
           <Button onClick={ this.closePinnedTagsModal.bind(this) }>Cancel</Button>
-          <Button bsStyle="success" onClick={ this.handlePinnedTagSaved.bind(this) }>Save</Button>
+          <Button bsStyle="primary" onClick={ this.handlePinnedTagSaved.bind(this) }>Save</Button>
         </Modal.Footer>
       </Modal>
     )

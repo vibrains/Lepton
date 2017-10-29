@@ -92,7 +92,7 @@ class LoginPage extends Component {
     //     <Button
     //       autoFocus
     //       className='modal-button'
-    //       bsStyle="success"
+    //       bsStyle="primary"
     //       onClick={ this.handleContinueButtonClicked.bind(this) }>
     //       Continue as { loggedInUserName }
     //     </Button>

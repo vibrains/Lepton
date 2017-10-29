@@ -5,8 +5,11 @@
   height: 100vh;
   display: flex;
   flex-direction: column;
-  border-right: 1px solid #dadee3;
-  background-color: #15232d;
+  border-right: 1px solid #2e3654;
+  background-image: url("../images/bg.png");
+  background-repeat: repeat;
+  background-color: #2e3654;
+  background: #161d35;
   color: #fff;
 }
 
@@ -16,7 +19,7 @@
     margin-top: 15px;
     margin-bottom: 15px;
     width: 100%;
-    border-top: 1px solid #dadee3;
+    border-top: 1px solid #2e3654;
   }
 
   .font-style-base {
@@ -36,7 +39,7 @@
     height: 14px;
     box-sizing: content-box;
     cursor: pointer;
-    fill: #787282;
+    fill: #448aff;
     transition: fill .15s;
 
     svg {
@@ -90,7 +93,7 @@
     display: flex;
     flex-direction: column;
     padding: 15px 0;
-    border-top: 1px solid #dadee3;
+    border-top: 1px solid #2e3654;
   }
 
   .tag-section-active {
@@ -119,8 +122,8 @@
 
   .active-gist-tag {
     @extend .font-style-base;
-    color: #353138;
-    font-weight: bold;
+    color: #f6388e;
+    font-weight: normal;
     cursor: pointer;
   }
 

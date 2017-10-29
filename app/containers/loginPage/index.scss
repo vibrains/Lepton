@@ -9,7 +9,9 @@
   .modal {
     -webkit-user-select: none;
     -webkit-app-region: drag;
-    background: #808080;
+    background-image: url("../images/bg.png");
+    background-repeat: repeat;
+    background-color: #252d47;
   }
 
   .modal-content {

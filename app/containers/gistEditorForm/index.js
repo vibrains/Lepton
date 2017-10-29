@@ -48,7 +48,7 @@ class GistEditorFormImpl extends Component {
           <Button
             className='gist-editor-control-button'
             type='submit'
-            bsStyle='success'
+            bsStyle='primary'
             disabled={ submitting }>
             Submit
           </Button>

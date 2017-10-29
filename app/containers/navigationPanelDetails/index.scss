@@ -42,13 +42,15 @@
     padding: 0 !important;
     border-right-width: 0 !important;
     border-left-width: 0 !important;
-    border-bottom: solid 1px #dadee3;
-    background: white;
+    border-bottom: solid 1px #2e3654;
+    background: #232c48;
     cursor: pointer;
+    color: #828ba6;
   }
 
   .snippet-thumnail-list-item:hover {
-    background-color: #F9F9F9;
+    background-color: #f6388e;
+    color: white;
   }
 
   .snippet-thumnail {
@@ -67,14 +69,14 @@
 
   .active-snippet-thumnail-public {
     @extend .active-snippet-thumnail-base;
-    background: cornflowerblue;
-    color: white;
+    background: #232c48;
+    color: #f6388e;
   }
 
   .active-snippet-thumnail-private {
     @extend .active-snippet-thumnail-base;
-    background: darkslategray;
-    color: white;
+    background: #1f2740;
+    color:#f6388e;
   }
 
   .snippet-thumnail-description {
